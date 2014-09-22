@@ -1,0 +1,175 @@
+body{
+	background:url(img/battle-of-pirate-ship.jpg) no-repeat fixed ;
+	background-size:cover;
+	background-position:fixed;
+	color: #d4c39e;
+	font-family:Arial;
+}
+
+header {
+	width:617px;
+	margin:auto;
+	height:200px;
+}
+
+a img {
+	border:none;
+	outline:none;
+}
+
+#wrapper {
+	background:url(img/sabres.png);
+	background-repeat:no-repeat;
+	width:717px;
+	height:562px;
+	margin:auto;
+}
+
+nav ul {
+	list-style:none;
+	margin-left:-25px;
+}
+
+nav li {
+	margin-top:15px;
+}
+
+nav li:before {
+	content:"> ";
+}
+
+nav li a {
+	text-decoration:none;
+	color:#d4c39e;
+	
+}
+
+nav li a:hover {
+	color:white;
+}
+
+#header {
+	background:url(img/header.png);
+	background-repeat:no-repeat;
+	width:800px;
+	height:151px;
+	margin:auto;
+}
+
+#InnerWrap {
+	width:800px;
+	margin:0 auto;
+}
+
+#wrap {
+	display:inline-block;
+}
+
+nav {
+	background:url(img/menu.png);
+	background-repeat:no-repeat;
+	width:159px;
+	height:310px;
+	margin-left:17px;
+	padding:0 15px 0 20px;
+	float:left;
+}
+
+nav a, section a {
+	text-decoration:none;
+	color:#b28d54;
+}
+
+nav a:hover, section a:hover {
+	text-decoration:underline;
+	color:white;
+}
+
+section {
+	background:url(img/InnerBody.png);
+	background-repeat:repeat-y;
+	width:511px;
+	padding:0 25px 0 35px;
+	float:left;
+}
+
+footer {
+	background:url(img/foot.png);
+	background-repeat:no-repeat;
+	width:580px;
+	height:88px;
+	margin-left:211px;
+	margin-top:-4px;
+}
+
+#connex {
+	background:url(img/cadre_connex.png);
+	background-repeat:no-repeat;
+	width:320px;
+	height:404px;
+	margin:auto;
+	padding:160px 40px 0 40px;
+}
+
+#connex form {
+	margin-top:20px;
+}
+
+#connex_table {
+	display:table;
+	margin:40px auto;
+}
+
+h1 {
+	font-size:18px;
+	font-weight:bold;
+	border-bottom:#d4c39e 2px solid;
+	margin:auto;
+}
+
+.inputConn {
+	background:url(img/inputConn.png);
+	background-repeat:no-repeat;
+	width:260px;
+	height:30px;
+	line-height:30px;
+	padding:0 5px;
+	border:none;
+	outline:none;
+	color:#24170a;
+	font-size:18px;
+}
+
+#connex-left, #connex-right {
+	display:table-cell;
+	width:156px;
+}
+
+.submit {
+	background:url(img/submit.png);
+	background-repeat:no-repeat;
+	width:156px;
+	height:62px;
+	line-height:62px;
+	border:none;
+	text-align:center;
+	outline:none;
+	font-weight:bold;
+}
+
+.bt_exam a {
+	background:url(img/bt_exam.png);
+	background-repeat:no-repeat;
+	width:168px;
+	height:27px;
+	line-height:27px;
+	padding: 9px 7px 9px 75px;
+	color:#3e2710;
+	display:block;
+	font-size:20px;
+}
+
+.bt_exam a:hover {
+	background:url(img/bt_examHover.png);
+	text-decoration:none;
+}
